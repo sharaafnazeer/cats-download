@@ -12,8 +12,6 @@ let {
   size = 100
 } = argv;
 
-console.log(greeting)
-
 const run = async () => {
   try {
     const [firstImage, secondImage] = await Promise.all([
